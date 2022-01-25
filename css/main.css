@@ -1379,6 +1379,19 @@ textarea, label {
   padding-top: 8%;
 }
 
+.indeximage {
+  text-align: center;
+}
+
+.mobileimage {
+  display: none;
+}
+
+.regularimage {
+  display: block;
+  text-align: center;
+}
+
 /*------------------------------------------------
 	Responsive Media Queries
 -------------------------------------------------*/
@@ -1397,6 +1410,14 @@ textarea, label {
 
   .testimonials .thumb {
     margin-top: -8px;
+  }
+
+  .mobileimage {
+    display: block;
+  }
+  
+  .regularimage {
+    display: none;
   }
 }
 /*============================================================
@@ -1464,6 +1485,18 @@ textarea, label {
 
   .history-item .history-text {
     padding-right: 15px;
+  }
+
+  .indeximage {
+    margin-bottom: 5%;
+  }
+
+  .mobileimage {
+    display: block;
+  }
+  
+  .regularimage {
+    display: none;
   }
 }
 /*============================================================
@@ -1613,5 +1646,17 @@ textarea, label {
 
   .contact-form .input-field.name {
     margin-right: 0;
+  }
+
+  .indeximage {
+    margin-bottom: 5%;
+  }
+
+  .mobileimage {
+    display: block;
+  }
+  
+  .regularimage {
+    display: none;
   }
 }
